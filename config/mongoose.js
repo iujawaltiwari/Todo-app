@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/Hospital-API');
+mongoose.connect('mongodb://127.0.0.1:27017/Todo-Application');
 
 const db = mongoose.connection;
 
